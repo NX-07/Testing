@@ -40,7 +40,7 @@ def cadastrar(): #cadastro de filmes 2
     cadastro_filmes.append(filmes)
     print("Filme cadastrado!!!")
     
-def pgenero(): #Procurar pelo gênero 8
+def pgenero(): #Procurar pelo gênero 8 funcionalidade bonus
     print("Escolha por gênero")
     linha()
     print('''
