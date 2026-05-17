@@ -50,12 +50,12 @@ def fila(): #FILA DE RESERVA 3
     if mostrar == 2:
         print("\n[Cadastrar reserva!!!]")
         nomafilme = input("\nNome do cliente: ")
-        reserva = input("\nFilme a ser reservado: ")
+        
         catagol()
         Id_filme = str(input("\nID do filme a ser reservado: "))
         fila = {
             "Nomefilme": nomafilme, 
-            "Reserva": reserva,
+            
             "Id_filme": Id_filme
         }
         fila_reserva.append(fila)
@@ -64,7 +64,7 @@ def fila(): #FILA DE RESERVA 3
     else:
         print("Fila de reserva:")
         for fila in fila_reserva:
-            print(f"{fila['Nomefilme']} | {fila['Reserva']} | {fila['Id_filme']}")
+            print(f"{fila['Nomefilme']} || {fila['Id_filme']}")
         print("Voltando para o menu...")
             
 def pilha(): #Não finalizajicdsvfsdfbdfbdfb 4
