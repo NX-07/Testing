@@ -1,5 +1,3 @@
-#1 - Listar catálogo") #com status de disponibilidade"
-
 cadastro_filmes = [
      {"ID": 1,  "Nome": "Um Sonho de Liberdade",          "Genero": "Drama",       "Ano": "1994", "Disponível": "Sim"},
     {"ID": 2,  "Nome": "O Poderoso Chefão",              "Genero": "Policial",    "Ano": "1972", "Disponível": "Sim"},
