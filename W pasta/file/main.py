@@ -11,7 +11,7 @@ def start():
     4 - Pilha de devoluções                              #LIFO: última devolução aparece primeiro
     5 - Registrar aluguel                                #(marca filme como indisponível)
     6 - Registrar devolução                              #marca filme como disponível
-    7 - Procurar por gênero                              #filtra catálogo por gênero
+    7 - Procurar por gênero                              #filtra catálogo por gênero\Bonus
     8 - Sair                                             #Encerrar programa
     ''')
     linha()
