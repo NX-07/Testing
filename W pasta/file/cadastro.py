@@ -40,3 +40,36 @@ def cadastrar(): #cadastro de filmes 2
     cadastro_filmes.append(filmes)
     print("Filme cadastrado!!!")
     
+def pgenero(): #Procurar pelo gênero 8
+    print("Escolha por gênero")
+    linha()
+    print('''
+        1 - Drama 
+        2 - Ação 
+        3 - Animação 
+        4 - Suspense 
+        5 - Policial 
+        6 - Comedia 
+        7 - Ficção
+        ''')
+    linha()
+    genero = int(input("Escolha o genero (1 a 7 ): "))
+    if genero == 1:
+        genero = "Drama"
+    elif genero == 2:
+        genero = "Ação"
+    elif genero == 3:
+        genero = "Animação"
+    elif genero == 4:
+        genero = "Suspense"
+    elif genero == 5:
+        genero = "Policial"
+    elif genero == 6:
+        genero = "Comédia"
+    elif genero == 7:
+        genero = "Ficção"
+    else:
+        print("Opção invalida")
+    for filme in cadastro_filmes:
+        if filme["Genero"] == genero:
+            print(f"{filme['Nome']} | {filme['Genero']} | {filme['Ano']} | {filme['Disponível']}")
